@@ -10,7 +10,7 @@ class Node<T> {
   }
 }
 
-class LinkedList<T> {
+export class LinkedList<T> {
   private head: NullOr<Node<T>>;
   private tail: NullOr<Node<T>>;
   private len: number;
@@ -141,5 +141,3 @@ class LinkedList<T> {
     return this.join();
   }
 }
-
-export default LinkedList;
