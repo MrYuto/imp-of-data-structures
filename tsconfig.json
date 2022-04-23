@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/node17/tsconfig.json",
+  "ts-node": {
+    "transpileOnly": true
+  },
+  "compilerOptions": {
+    "outDir": "dist",
+    "noImplicitAny": true,
+    "strictNullChecks": true
+  },
+  "include": ["src/**/*"]
+}
